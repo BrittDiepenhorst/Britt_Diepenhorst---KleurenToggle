@@ -1,4 +1,4 @@
-const toggleNavStatus = false;
+let toggleNavStatus = false;
 
 const toggleNav = function () {
     const getNavInside = document.querySelector(".nav-inside");
