@@ -1,9 +1,9 @@
-let toggleNavStatus = false;
+const toggleNavStatus = false;
 
-let toggleNav = function () {
-    let getNavInside = document.querySelector(".nav-inside");
-    let getNavInsideUl = document.querySelector(".nav-inside ul");
-    let getNavInsideLinks = document.querySelectorAll(".nav-inside a");
+const toggleNav = function () {
+    const getNavInside = document.querySelector(".nav-inside");
+    const getNavInsideUl = document.querySelector(".nav-inside ul");
+    const getNavInsideLinks = document.querySelectorAll(".nav-inside a");
 
 
     if (toggleNavStatus === false) {
